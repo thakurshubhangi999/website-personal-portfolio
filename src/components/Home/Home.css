@@ -21,7 +21,7 @@
   .title {
     font-size: 72px;
     font-weight: 900;
-    margin-bottom: 33px;
+    margin-bottom: 23px;
     font-family: sans-serif;
     background: linear-gradient(
       90deg,
@@ -35,9 +35,13 @@
   .description {
     font-size: 30px;
     font-family: sans-serif;
-    margin-bottom: 52px;
+    margin-bottom: 26px;
   }
-  
+  .intro{
+    font-size: 30px;
+    font-family: sans-serif;
+    margin-bottom: 16px;
+  }
   .contactBtn {
     text-decoration: none;
     background-color: rgb(10, 17, 55);
@@ -59,6 +63,20 @@
     animation-timing-function: ease-in-out;
   }
   
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+  }
+  
+  .profile-image {
+    width: 100%;
+    max-width: 550px; /* Adjust the max-width as needed */
+    height: 100%;
+    border-radius: 20%;
+    opacity: 0.6;
+  }
   @keyframes floating {
     0% {
       transform: translate(0, 0px);
