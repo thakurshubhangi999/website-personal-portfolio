@@ -12,7 +12,7 @@
   }
   
   .project-container,
-  .contact-container {
+  .contact-container, .exp-container {
     position: relative;
     z-index: 2;
   }

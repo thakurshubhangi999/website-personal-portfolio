@@ -1,18 +1,18 @@
 /* experience.css */
-.container {
-    color: rgb(152, 148, 226);
+.exp-container {
+    color: white;
     margin-top: 79px;
     margin-left: 10%;
     margin-right: 10%;
   }
   
-  .title {
-    color: rgb(149, 155, 205);
+  .exp-title {
+    color: rgb(177, 179, 201);
     font-size: 35px;
     font-weight: 700;
     letter-spacing: 1.75px;
     text-transform: uppercase;
-  }
+     }
   
   .exp-content {
     display: flex;

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Navbar.css"; // Import the CSS file
-import { getImageUrl } from "../../utils"
+import { getImageUrl } from "../../utils";
 
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -26,9 +26,6 @@ export const Navbar = () => {
           onClick={() => setMenuOpen(false)}
         >
           <li>
-            <a href="#home">Home</a>
-          </li>
-          <li>
             <a href="#about">About</a>
           </li>
           <li>
@@ -41,6 +38,29 @@ export const Navbar = () => {
             <a href="#contact">Contact</a>
           </li>
         </ul>
+      </div>
+      <div class="social-icons">
+        <a
+          href="https://www.linkedin.com/in/yourprofile"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="fa-brands fa-linkedin" style={{color: 'white'}}></i>
+        </a>
+        <a
+          href="https://github.com/yourprofile"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="fa-brands fa-github" style={{color: 'white'}}></i>
+        </a>
+        <a href="mailto:youremail@example.com">
+          <i
+            class="fa fa-envelope"
+            aria-hidden="true"
+            style={{color: 'white'}}
+          ></i>
+        </a>
       </div>
     </nav>
   );

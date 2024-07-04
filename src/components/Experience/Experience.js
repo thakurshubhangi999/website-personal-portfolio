@@ -6,8 +6,8 @@ import { getImageUrl } from "../../utils";
 
 export const Experience = () => {
   return (
-    <section className="container" id="experience">
-      <h2 className="title">Experience</h2>
+    <section className="exp-container" id="experience">
+      <h2 className="exp-title">Experience</h2>
       <div className="exp-content">
         <div className="skills">
           {skills.map((skill, id) => (
