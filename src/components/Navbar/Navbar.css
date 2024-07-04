@@ -30,23 +30,19 @@
 }
 
 .menuItems a {
-  font-size: 25px;
+  font-size: 30px;
   color: rgb(228, 212, 212);
   text-decoration: none;
   transition: all 0.3s ease-in-out;
 }
 .menuItems a:hover {
-  background-color: rgba(6, 29, 73, 0.8); 
   border-radius: 10px;
   color: #847ebe; 
   text-shadow: 0 0 10px #000000;
 }
-.social-icons {
-  display: flex;
-  gap: 10px;
+.menuItems:hover {
+  transform: scale(1.1);
 }
-
-
 @media screen and (max-width: 830px) {
   .navbar {
     flex-direction: column;

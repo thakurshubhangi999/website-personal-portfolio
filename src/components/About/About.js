@@ -1,13 +1,11 @@
 import React from "react";
 import "./About.css"; // Import the CSS file
-import profileImage from "./heroImage.png";
 
 export const About = () => {
   return (
     <section className="about-container" id="about">
       <h2 className="about-title">About</h2>
       <div className="about-content">
-        <img src={profileImage} alt="sittinglaptop" className="about-image" />
         <ul className="about-items">
           <li className="about-item">
             <div className="about-item-text">

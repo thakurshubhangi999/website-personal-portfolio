@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 import "./Navbar.css"; // Import the CSS file
+import emailIcon from "./emailIcon.png";
+import linkedinIcon from "./linkedinIcon.png";
+import githubIcon from "./githubIcon.png";
 import { getImageUrl } from "../../utils";
 
 export const Navbar = () => {
@@ -37,30 +40,34 @@ export const Navbar = () => {
           <li>
             <a href="#contact">Contact</a>
           </li>
+          <li>
+            <a href="mailto:thakurshubhangi999@gmail.com">
+              <img
+                src={emailIcon}
+                alt="Email icon"
+                style={{ width: "30px", height: "30px" }}
+              />
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/thakur-shubhangi-0ba85b22b/">
+              <img
+                src={linkedinIcon}
+                alt="LinkedIn icon"
+                style={{ width: "30px", height: "30px" }}
+              />
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/thakurshubhangi999">
+              <img
+                src={githubIcon}
+                alt="Github icon"
+                style={{ width: "30px", height: "30px" }}
+              />
+            </a>
+          </li>
         </ul>
-      </div>
-      <div class="social-icons">
-        <a
-          href="https://www.linkedin.com/in/yourprofile"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i class="fa-brands fa-linkedin" style={{color: 'white'}}></i>
-        </a>
-        <a
-          href="https://github.com/yourprofile"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i class="fa-brands fa-github" style={{color: 'white'}}></i>
-        </a>
-        <a href="mailto:youremail@example.com">
-          <i
-            class="fa fa-envelope"
-            aria-hidden="true"
-            style={{color: 'white'}}
-          ></i>
-        </a>
       </div>
     </nav>
   );

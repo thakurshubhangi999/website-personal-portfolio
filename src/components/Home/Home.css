@@ -19,10 +19,9 @@
   }
   
   .title {
-    font-size: 72px;
+    font-size: 54px;
     font-weight: 900;
     margin-bottom: 23px;
-    font-family: sans-serif;
     background: linear-gradient(
       90deg,
       rgb(210, 210, 219) 70%,
@@ -34,25 +33,22 @@
   
   .description {
     font-size: 30px;
-    font-family: sans-serif;
     margin-bottom: 26px;
   }
-  .intro{
-    font-size: 30px;
-    font-family: sans-serif;
-    margin-bottom: 16px;
-  }
+
   .contactBtn {
     text-decoration: none;
-    background-color: rgb(10, 17, 55);
+    background-color: rgb(15 21 56);
     color: white;
-    border-radius: 100px;
+    border-radius: 20px;
     font-size: 30px;
-    font-weight: 600;
-    padding: 17px 26px;
-    box-shadow: 0 0 4px 0 rgba(33, 37, 78, 0.25);
+    padding: 16px 20px;
+    margin-top: 10px;
   }
-  
+  .contactBtn:hover {
+    background-color: rgb(10, 15, 40);
+    box-shadow: 0 0 8px 2px rgba(33, 37, 78, 0.5);
+  }
   .heroImg {
     width: 50%;
     z-index: 1;

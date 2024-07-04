@@ -1,31 +1,46 @@
 import React from "react";
-import "./Contact.css"
-import { getImageUrl } from "../../utils";
+import "./Contact.css"; // Import the CSS file
 
 export const Contact = () => {
   return (
     <footer id="contact" className="contact-container">
-      <div className="text">
-        <h2>Contact</h2>
-        <p>Feel free to reach out!</p>
-      </div>
-      <ul className="contact-links">
-        <li className="contact-link">
-          <img src={getImageUrl("contact/emailIcon.png")} alt="Email icon" />
-          <a href="mailto:myemail@email.com">myemail@email.com</a>
-        </li>
-        <li className="contact-link">
-          <img
-            src={getImageUrl("contact/linkedinIcon.png")}
-            alt="LinkedIn icon"
-          />
-          <a href="https://www.linkedin.com/myname">linkedin.com/myname</a>
-        </li>
-        <li className="contact-link">
-          <img src={getImageUrl("contact/githubIcon.png")} alt="Github icon" />
-          <a href="https://www.github.com/myname">github.com/myname</a>
-        </li>
-      </ul>
+      <section className="contact" id="contact">
+        <div className="row">
+          <div className="content">
+            <p className="contact-title ">contact info</p>
+            <div className="info">
+            <div className="info">
+              <p>
+                <strong>Email:</strong> thakurshubhangi999@gmail.com
+              </p>
+              <p>
+                <strong>Phone:</strong> +91 9108818955
+              </p>
+              <p>
+                <strong>Location:</strong> Bidar, India - 585328
+              </p>
+            </div>
+            </div>
+          </div>
+          <form action="">
+            <input type="text" placeholder="name" className="box" />
+            <input type="email" placeholder="email" className="box" />
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+              className="box message"
+              placeholder="message"
+            ></textarea>
+            <button type="submit" className="contactBtn">
+              Send
+            </button>
+          </form>
+        </div>
+      </section>
     </footer>
   );
 };
+
+export default Contact;

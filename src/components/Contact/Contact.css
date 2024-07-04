@@ -1,6 +1,13 @@
+/* Import Roboto font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+/* Set Roboto as the default font-family for the entire webpage */
+body {
+  font-family: 'Roboto', sans-serif;
+}
 /* contact.css */
 
-.contact-container {
+/* .contact-container {
     color: whitesmoke;
     margin-top: 120px;
     background-color: rgb(23, 23, 23);
@@ -47,6 +54,103 @@
     letter-spacing: 1.5px;
   }
   
+  @media screen and (max-width: 830px) {
+    .contact-container {
+      flex-direction: column;
+      gap: 23px;
+    }
+  
+    .text {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .contact-links {
+      align-items: center;
+    }
+  }
+   */
+   .contact-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: rgba(2, 7, 34, 0.6);
+    border-radius: 15px;
+    color: white;
+    padding: 73px;
+    margin-top: 100px;
+    z-index: 1;
+    margin-left: 10%;
+    margin-right: 10%;
+    opacity: 0.6;
+    background: linear-gradient(180deg, #030c2a 0%, #00050d 100%);
+    box-shadow: 0 16px 14px 0 #020721;
+    gap: 4px;
+  }
+   .contact .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .contact .row .content {
+    flex: 1 1 20rem;
+    padding: 1rem;
+    padding-bottom: 0;
+  }
+  
+  .contact .row form {
+    flex: 1 1 45rem;
+    padding: 1rem;
+    margin: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .contact .row form .box {
+    padding: 1.5rem;
+    margin: 1rem 0;
+    background: linear-gradient(180deg, #030c2a 0%, #021f52 100%);
+    box-shadow: 0 16px 14px 0 #020721;
+    color: white;
+    text-transform: lowercase;
+    font-size: 1.8rem;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .contact .row form .box::placeholder {
+    text-transform: capitalize;
+  }
+  
+  .contact .row form .message {
+    height: 15rem;
+    resize: none;
+  }
+  
+  .contact .row .content .contact-title {
+    color: white;
+    font-size: 4rem;
+    /* padding-bottom: 2rem; */
+  }
+  
+  .contact .row .content .info p {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    color: white;
+    padding: 1rem 0;
+    text-transform: none;
+    font-weight: 400;
+    letter-spacing: 2px;
+  }
+  
+  .contact .row .content .info h3 i {
+    padding-right: 1rem;
+  }
+
   @media screen and (max-width: 830px) {
     .contact-container {
       flex-direction: column;

@@ -52,7 +52,6 @@
   
   .skill p {
     font-size: 25px;
-    font-family: sans-serif;
     font-weight: 500;
   }
   
@@ -78,9 +77,6 @@
     width: 50px;
   }
   
-  .historyItemDetails {
-    font-family: var(--font-roboto);
-  }
   
   .historyItemDetails h3 {
     font-size: 30px;
