@@ -5,21 +5,19 @@ export const Contact = () => {
   return (
     <footer id="contact" className="contact-container">
       <section className="contact" id="contact">
+        <h2 className="contact-title">Contact Info</h2>
         <div className="row">
           <div className="content">
-            <p className="contact-title ">contact info</p>
-            <div className="info">
             <div className="info">
               <p>
                 <strong>Email:</strong> thakurshubhangi999@gmail.com
               </p>
               <p>
-                <strong>Phone:</strong> +91 9108818955
+                <strong>Phone:</strong> +91 222333444
               </p>
               <p>
                 <strong>Location:</strong> Bidar, India - 585328
               </p>
-            </div>
             </div>
           </div>
           <form action="">

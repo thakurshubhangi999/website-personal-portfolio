@@ -47,29 +47,19 @@
     background-color: rgb(10, 15, 40);
     box-shadow: 0 0 8px 2px rgba(33, 37, 78, 0.5);
   }
-  .heroImg {
-    width: 50%;
-    z-index: 1;
-  
-    animation-name: floating;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
-  }
-  
+
   .image-container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex: 1;
   }
-  
   .profile-image {
     width: 100%;
-    max-width: 550px; /* Adjust the max-width as needed */
+    max-width: 550px;
     height: 100%;
     border-radius: 20%;
-    opacity: 0.6;
+    opacity: 1.8;
   }
   @keyframes floating {
     0% {
@@ -92,7 +82,7 @@
     top: -128px;
     left: -10vw;
     border-radius: 764px;
-    background: rgba(20, 33, 57, 0.7);
+    background: rgba(9, 22, 46, 0.7);
     filter: blur(100px);
     z-index: 0;
   }
@@ -106,7 +96,7 @@
     top: 246px;
     right: -25vw;
     border-radius: 764px;
-    background: rgba(25, 55, 109, 0.7);
+    background: rgba(1, 16, 43, 0.7);
     filter: blur(100px);
     z-index: 0;
   }

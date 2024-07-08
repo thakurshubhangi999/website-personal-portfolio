@@ -1,26 +1,26 @@
 [
   {
-    "title": "Project A",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "Netflix",
+    "imageSrc": "netflix",
+    "description": "Developed a Netflix clone using React JS, leveraging Redux,React-Router,Axios for enhanced functionality and state management.",
+    "skills": ["ReactJs", "Redux", "React Router"],
+    "demo": "https://netflix-project-green.vercel.app/",
+    "source": "https://github.com/thakurshubhangi999/NetflixProject"
   },
   {
-    "title": "Project B",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "E-commerce",
+    "imageSrc": "ecommerce",
+    "description": "Created an engaging e-commerce website using HTML, CSS, and JavaScript, implementing responsive design with CSS Grid and Flexbox for optimal viewing on different devices.",
+    "skills": ["HTML", "CSS", "JavaScript", "Git"],
+    "demo": "https://ecommerce-website-neon.vercel.app/",
+    "source": "https://github.com/thakurshubhangi999/EcommerceWebsite"
   },
   {
-    "title": "Project C",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "Bootcamp Project",
+    "imageSrc": "website",
+    "description": "Developed a dynamic and responsive website leveraging Bootstrap 5, showcasing proficiency in responsive design with CSS Grid, Flexbox, and Bootstrap 5.",
+    "skills": ["Bootstrap5", "JavaScript", "Git"],
+    "demo": "https://bootcamp-bootstrap5.vercel.app/",
+    "source": "https://github.com/thakurshubhangi999/Bootcamp-Bootstrap5"
   }
 ]

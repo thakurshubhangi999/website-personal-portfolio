@@ -11,17 +11,13 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    background-color: rgba(2, 7, 34, 0.6);
     border-radius: 15px;
     color: #fff;
-    padding: 73px;
+    padding: 40px;
     margin-top: 100px;
     z-index: 1;
     margin-left: 10%;
     margin-right: 10%;
-    opacity: 0.6;
-    background: linear-gradient(180deg, #030c2a 0%, #00050d 100%);
-    box-shadow: 0 16px 14px 0 #020721;
     gap: 4px;
   }
    .contact .row {
@@ -29,8 +25,18 @@ body {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    width: 100%;
+    background: linear-gradient(180deg, #030c2a 0%, #00050d 100%);
+    box-shadow: 0 16px 14px 0 #020721;
+    opacity: 0.8;
   }
-  
+  .contact-title{
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+    margin: 40px -40px;
+  }
   .contact .row .content {
     flex: 1 1 20rem;
     padding: 1rem;
@@ -39,34 +45,38 @@ body {
   
   .contact .row form {
     flex: 1 1 45rem;
-    padding: 1rem;
-    margin: 1rem;
+    padding: 20px;
+    margin: 20px;
     margin-bottom: 2rem;
   }
   
   .contact .row form .box {
-    padding: 1.5rem;
+    padding: 8px;
     margin: 1rem 0;
-    background: linear-gradient(180deg, #030c2a 0%, #021f52 100%);
+    background: linear-gradient(0deg, #030f37 0%, #021332 100%);
     box-shadow: 0 16px 14px 0 #020721;
     text-transform: lowercase;
     font-size: 1.8rem;
     width: 100%;
     font-family: 'Roboto', sans-serif;
+    color: #fff;
+    border: none;
   }
   
   .contact .row form .box::placeholder {
     text-transform: capitalize;
+    color: rgba(227, 230, 239, 0.6); 
   }
   
   .contact .row form .message {
     height: 15rem;
     resize: none;
+    color: #fff;
+    border: none;
   }
   
   .contact .row .content .contact-title {
     font-size: 35px;
-    /* padding-bottom: 2rem; */
   }
   
   .contact .row .content .info p {
@@ -75,8 +85,6 @@ body {
     font-size: 25px;
     padding: 1rem 0;
     text-transform: none;
-    font-weight: 400;
-    letter-spacing: 2px;
     color: #fff;
   }
   

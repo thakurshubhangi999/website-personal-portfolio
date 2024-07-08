@@ -1,9 +1,14 @@
 import React from "react";
 import "./ProjectCard.css";
-import Netflix from "./netflix.png";
-import Ecommerce from "./ecommerce.png";
-import Website from "./website.png";
-import { getImageUrl } from "../../utils";
+import Netflix from "./netflix.PNG";
+import Ecommerce from "./ecommerce.PNG";
+import Website from "./website.PNG";
+
+const images = {
+  netflix: Netflix,
+  ecommerce: Ecommerce,
+  website: Website,
+};
 
 export const ProjectCard = ({
   project: { title, imageSrc, description, skills, demo, source },
@@ -11,7 +16,7 @@ export const ProjectCard = ({
   return (
     <div className="projectcard-container">
       <img
-        src={getImageUrl(imageSrc)}
+        src={images[imageSrc]}
         alt={`Image of ${title}`}
         className="image"
       />
