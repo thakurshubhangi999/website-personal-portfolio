@@ -1,5 +1,8 @@
 import React from "react";
-import "./ProjectCard.css"
+import "./ProjectCard.css";
+import Netflix from "./netflix.png";
+import Ecommerce from "./ecommerce.png";
+import Website from "./website.png";
 import { getImageUrl } from "../../utils";
 
 export const ProjectCard = ({

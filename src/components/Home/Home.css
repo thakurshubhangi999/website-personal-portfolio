@@ -13,7 +13,6 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    color: rgb(178, 178, 239);
     z-index: 1;
     flex-wrap: wrap;
   }
@@ -21,7 +20,6 @@
   .title {
     font-size: 54px;
     font-weight: 900;
-    margin-bottom: 23px;
     background: linear-gradient(
       90deg,
       rgb(210, 210, 219) 70%,
@@ -39,7 +37,7 @@
   .contactBtn {
     text-decoration: none;
     background-color: rgb(15 21 56);
-    color: white;
+    color: #fff;
     border-radius: 20px;
     font-size: 30px;
     padding: 16px 20px;

@@ -1,37 +1,39 @@
 import React from "react";
 import "./Experience.css";
-import skills from "../../data/skills.json";
 import history from "../../data/history.json";
-import { getImageUrl } from "../../utils";
+import infosys from "./infosys.png";
+import aris from "./aris.png";
+
+// Function to get the image based on the organization name
+const getOrganizationImage = (organisation) => {
+  switch (organisation) {
+    case "Aris Investing":
+      return aris;
+    case "Infosys Ltd.":
+      return infosys;
+    default:
+      return "";
+  }
+};
 
 export const Experience = () => {
   return (
     <section className="exp-container" id="experience">
       <h2 className="exp-title">Experience</h2>
       <div className="exp-content">
-        <div className="skills">
-          {skills.map((skill, id) => (
-            <div key={id} className="skill">
-              <div className="skillImageContainer">
-                <img src={getImageUrl(skill.imageSrc)} alt={skill.title} />
-              </div>
-              <p>{skill.title}</p>
-            </div>
-          ))}
-        </div>
         <ul className="history">
           {history.map((historyItem, id) => (
             <li key={id} className="historyItem">
               <img
-                src={getImageUrl(historyItem.imageSrc)}
+                src={getOrganizationImage(historyItem.organisation)}
                 alt={`${historyItem.organisation} Logo`}
               />
               <div className="historyItemDetails">
                 <h3>{`${historyItem.role}, ${historyItem.organisation}`}</h3>
                 <p>{`${historyItem.startDate} - ${historyItem.endDate}`}</p>
                 <ul>
-                  {historyItem.experiences.map((experience, id) => (
-                    <li key={id}>{experience}</li>
+                  {historyItem.experiences.map((experience, idx) => (
+                    <li key={idx}>{experience}</li>
                   ))}
                 </ul>
               </div>

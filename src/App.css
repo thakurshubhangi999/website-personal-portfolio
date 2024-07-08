@@ -4,6 +4,7 @@
 /* Set Roboto as the default font-family for the entire webpage */
 body {
   font-family: 'Roboto', sans-serif;
+  color: #fff;
 }
 
 .App {

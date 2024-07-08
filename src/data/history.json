@@ -1,29 +1,33 @@
 [
   {
-    "role": "Software Engineer",
-    "organisation": "Google",
-    "startDate": "Sept, 2022",
-    "endDate": "Present",
-    "experiences": ["Worked on Google Maps", "Reduced load times by 50%"],
-    "imageSrc": "history/google.png"
+    "role": "Frontend Engineer",
+    "organisation": "Aris Investing",
+    "startDate": "Aug, 2023",
+    "endDate": "June, 2024",
+    "experiences": ["Implemented reusable components, managed state with React hooks, developed table functionalities with Data Grid component(MUI X) , and integrated AWS Amplify for CRUD operations.", "Utilized Sentry for error tracking, designed custom fields for data input, implemented file upload with validation, and ensured a responsive, user-friendly UI with Material-UI components and theming."]
   },
   {
-    "role": "UI Designer",
-    "organisation": "Mirosoft",
-    "startDate": "Aug, 2021",
+    "role": "Windows Systems Engineer",
+    "organisation": "Infosys Ltd.",
+    "startDate": "Nov, 2022",
+    "endDate": "July, 2023",
+    "experiences": ["Specialized in VM server commissioning and decommissioning, including deploying new VMs and cloning existing ones.", "Collaborated With Server Hardware Vendors Such As HPE For Timely Hardware Upgrades And Failure Resolution."]
+  },
+  {
+    "role": "Systems Engineer",
+    "organisation": "Infosys Ltd.",
+    "startDate": "Oct, 2021",
     "endDate": "Aug, 2022",
-    "experiences": ["Worked on Windows 11", "Designed the control panel"],
-    "imageSrc": "history/microsoft.png"
+    "experiences": ["Developed reusable React components and collaborated with teams to create responsive web applications using HTML, CSS, and JavaScript.", "Designed intuitive and user-friendly user interfaces, focusing on enhancing usability and accessibility"]
   },
   {
-    "role": "SWE Intern",
-    "organisation": "Netflix",
-    "startDate": "Apr, 2020",
-    "endDate": "Jun, 2020",
+    "role": "Systems Engineer Trainee",
+    "organisation": "Infosys Ltd.",
+    "startDate": "June, 2021",
+    "endDate": "Oct, 2021",
     "experiences": [
-      "Worked on component library",
-      "Helped create UI components"
-    ],
-    "imageSrc": "history/netflix.png"
+      "Completed training on HTML, CSS, JavaScript, and ReactJS, developing mini projects and collaborating on group tasks.",
+      "Participated in code reviews, shadowed senior developers, and practiced agile methodologies, enhancing coding standards and teamwork."
+    ]
   }
 ]

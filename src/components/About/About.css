@@ -11,7 +11,7 @@
   }
   
   .about-title {
-    color: rgb(223, 224, 237); /* Assuming you have a --color-text variable defined elsewhere */
+    color: #fff; /* Assuming you have a --color-text variable defined elsewhere */
     font-size: 35px;
     font-weight: 700;
     letter-spacing: 1.75px;
@@ -29,7 +29,7 @@
   }
   
   .about-items {
-    color: rgb(133, 143, 185); /* Assuming you have a --color-text variable defined elsewhere */
+    color: #fff; /* Assuming you have a --color-text variable defined elsewhere */
     display: flex;
     flex-direction: column;
     gap: 50px;
