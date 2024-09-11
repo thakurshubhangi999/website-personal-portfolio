@@ -45,8 +45,8 @@ export const About = () => {
                 <li>Languages: JavaScript</li>
                 <li>Markup Languages: HTML, CSS</li>
                 <li>Frameworks: ReactJS, Material UI</li>
-                <li>Libraries: React Router, Redux Toolkit, Formik, Yup, React Query, Sentry</li>
-                <li>Dev Tools: Git, GitHub, JIRA, Visual Studio Code</li>
+                <li>Libraries: React Router, Redux Toolkit, Sentry</li>
+                <li>Dev Tools: Git, GitHub, JIRA, Postman, Visual Studio Code</li>
               </ul>
             </div>
           </li>
