@@ -54,7 +54,7 @@ const ParticlesBackground = (props) => {
             duration: 15,
           },
           grab: {
-            distance: 150,
+            distance: 200,
           },
         },
       },

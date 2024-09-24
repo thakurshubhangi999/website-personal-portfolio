@@ -1,88 +1,140 @@
+/* Main Navbar Styles */
 
 .navbar {
   position: relative;
   display: flex;
-  align-items: center;
+  align-items: center; /* Align items vertically */
   justify-content: space-between;
-  padding-top: 61px;
+  padding: 20px 10%;
   z-index: 2;
-  margin: 0 10%;
+  background-color: #000;
 }
 
 .title {
   font-size: 30px;
   font-weight: 600;
   text-decoration: none;
+  color: #fff;
 }
 
 .menuBtn {
   display: none;
   height: 30px;
   width: 30px;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  z-index: 3;
+  margin-left: 20px; /* Add space between title and button */
+}
+
+.menuBtn img {
+  width: 100%;
 }
 
 .menu {
   display: flex;
+  align-items: center; /* Align menu button vertically with title */
 }
 
 .menuItems {
   display: flex;
-  gap: 47px;
+  gap: 40px;
   list-style: none;
 }
 
 .menuItems a {
-  font-size: 30px;
+  font-size: 26px;
+  font-weight: 500;
   color: rgb(228, 212, 212);
   text-decoration: none;
   transition: all 0.3s ease-in-out;
 }
+
 .menuItems a:hover {
   border-radius: 10px;
-  color: #847ebe; 
+  color: #847ebe;
   text-shadow: 0 0 10px #000000;
 }
 
-@media screen and (max-width: 830px) {
+/* Tablets and Smaller Screens */
+@media screen and (max-width: 1024px) {
   .navbar {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .menu {
-    position: absolute;
-    right: 0;
-    margin-right: 2%;
-    flex-direction: column;
-    align-items: flex-end;
-    gap: 10px;
-    z-index: 3;
+    padding: 20px 5%;
   }
 
   .menuBtn {
     display: block;
-    cursor: pointer;
+    align-self: center; /* Keep the button aligned vertically */
   }
 
   .menuItems {
     display: none;
+    position: absolute;
+    top: 60px;
+    right: 10px;
     flex-direction: column;
     align-items: center;
-    gap: 13px;
-    border-radius: 15px;
-    background: linear-gradient(90deg, rgba(1, 1, 16, 0.1) 0.1%, rgba(5, 5, 95, 0.7) 100%);
-    padding: 24px 33px;
-    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+    gap: 15px;
+    background: linear-gradient(90deg, rgba(1, 1, 16, 0.8) 0%, rgba(5, 5, 95, 0.7) 100%);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 2;
   }
-  .menuItems a{
-    font-size: 20px;
-  }
-  .menuOpen {
+
+  .menuItems.menuOpen {
     display: flex;
-    z-index: 1;
   }
-  /* Hide the iconList on screens with a width of 830px or less */
-  .iconList {
-    display: none;
+}
+
+/* Mobile Screens */
+@media screen and (max-width: 830px) {
+  .navbar {
+    flex-direction: row; /* Ensure title and button are in one row */
+    align-items: center; /* Align title and button vertically */
+    justify-content: space-between; /* Keep them spaced properly */
+    padding: 20px 5%;
+  }
+
+  .title {
+    font-size: 28px;
+  }
+
+  .menuBtn {
+    display: block;
+    margin-left: 0; /* No extra margin needed on small screens */
+  }
+
+  .menu {
+    justify-content: flex-end;
+  }
+
+  .menuItems {
+    top: 50px;
+    right: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navbar {
+    padding: 10px 3%;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+
+  .menuItems a {
+    font-size: 16px;
+  }
+
+  .menuItems {
+    gap: 10px;
+    padding: 15px;
+  }
+
+  .menuItems.menuOpen {
+    display: flex;
   }
 }
