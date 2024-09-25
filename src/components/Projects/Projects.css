@@ -1,23 +1,89 @@
+/* Main Container Styling */
 .project-container {
-    margin-top: 76px;
-    margin-left: 10%;
-    margin-right: 10%;
+  margin-top: 76px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.project-title {
+  font-size: 44px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+}
+
+.project-projects {
+  margin-top: 37px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  width: 100%;
+}
+
+/* Responsive Design */
+/* Large Screens (Max width 1245px) */
+@media screen and (max-width: 1245px) {
+  .project-container {
+    margin-left: 8%;
+    margin-right: 8%;
   }
-  
+
   .project-title {
-    font-size: 35px;
-    font-weight: 700;
-    letter-spacing: 1.75px;
-    text-transform: uppercase;
+    font-size: 42px;
   }
-  
+
   .project-projects {
-    margin-top: 37px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    gap: 15px;
-    width: 100%;
+    gap: 12px;
   }
+}
+/* Medium Screens (Max width 1024px) */
+@media screen and (max-width: 1024px) {
+  .project-container {
+    margin-left: 8%;
+    margin-right: 8%;
+  }
+
+  .project-title {
+    font-size: 38px;
+  }
+
+  .project-projects {
+    gap: 10px;
+  }
+}
+
+/* Mobile Screens (Max width 830px) */
+@media screen and (max-width: 830px) {
+  .project-container {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .project-title {
+    font-size: 34px;
+  }
+
+  .project-projects {
+    gap: 8px;
+  }
+}
+
+/* Small Mobile Screens (Max width 600px) */
+@media screen and (max-width: 600px) {
+  .project-container {
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 0.9375rem;
+  }
+
+  .project-title {
+    font-size: 1.5rem;
+  }
+
+  .project-projects {
+    gap: 5px;
+  }
+}

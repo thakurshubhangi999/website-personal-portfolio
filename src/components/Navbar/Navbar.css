@@ -1,31 +1,29 @@
 /* Main Navbar Styles */
-
 .navbar {
   position: relative;
   display: flex;
-  align-items: center; /* Align items vertically */
+  align-items: center;
   justify-content: space-between;
-  padding: 20px 10%;
+  padding: 1.25rem 10%;
   z-index: 2;
   background-color: #000;
 }
 
 .title {
-  font-size: 30px;
+  font-size: 1.875rem;
   font-weight: 600;
-  text-decoration: none;
   color: #fff;
 }
 
 .menuBtn {
   display: none;
-  height: 30px;
-  width: 30px;
+  height: 1.875rem;
+  width: 1.875rem;
   background-color: transparent;
   cursor: pointer;
   border: none;
   z-index: 3;
-  margin-left: 20px; /* Add space between title and button */
+  margin-left: 1.25rem;
 }
 
 .menuBtn img {
@@ -34,17 +32,17 @@
 
 .menu {
   display: flex;
-  align-items: center; /* Align menu button vertically with title */
+  align-items: center;
 }
 
 .menuItems {
   display: flex;
-  gap: 40px;
+  gap: 2.5rem;
   list-style: none;
 }
 
 .menuItems a {
-  font-size: 26px;
+  font-size: 1.625rem;
   font-weight: 500;
   color: rgb(228, 212, 212);
   text-decoration: none;
@@ -52,34 +50,33 @@
 }
 
 .menuItems a:hover {
-  border-radius: 10px;
   color: #847ebe;
-  text-shadow: 0 0 10px #000000;
+  text-shadow: 0 0 0.625rem #000000;
 }
 
 /* Tablets and Smaller Screens */
 @media screen and (max-width: 1024px) {
   .navbar {
-    padding: 20px 5%;
+    padding: 1.25rem 5%;
   }
 
   .menuBtn {
     display: block;
-    align-self: center; /* Keep the button aligned vertically */
+    align-self: center;
   }
 
   .menuItems {
     display: none;
     position: absolute;
-    top: 60px;
-    right: 10px;
+    top: 3.75rem;
+    right: 0.625rem;
     flex-direction: column;
     align-items: center;
-    gap: 15px;
+    gap: 1rem;
     background: linear-gradient(90deg, rgba(1, 1, 16, 0.8) 0%, rgba(5, 5, 95, 0.7) 100%);
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1.25rem;
+    border-radius: 0.625rem;
+    box-shadow: 0 0.25rem 0.375rem rgba(0, 0, 0, 0.1);
     z-index: 2;
   }
 
@@ -91,47 +88,40 @@
 /* Mobile Screens */
 @media screen and (max-width: 830px) {
   .navbar {
-    flex-direction: row; /* Ensure title and button are in one row */
-    align-items: center; /* Align title and button vertically */
-    justify-content: space-between; /* Keep them spaced properly */
-    padding: 20px 5%;
+    padding: 1.25rem 5%;
   }
 
   .title {
-    font-size: 28px;
+    font-size: 1.75rem;
   }
 
   .menuBtn {
     display: block;
-    margin-left: 0; /* No extra margin needed on small screens */
-  }
-
-  .menu {
-    justify-content: flex-end;
+    margin-left: 0;
   }
 
   .menuItems {
-    top: 50px;
+    top: 3.125rem;
     right: 0;
   }
 }
 
 @media screen and (max-width: 600px) {
   .navbar {
-    padding: 10px 3%;
+    padding: 0.625rem 3%;
   }
 
   .title {
-    font-size: 24px;
+    font-size: 1.5rem;
   }
 
   .menuItems a {
-    font-size: 16px;
+    font-size: 1rem;
   }
 
   .menuItems {
-    gap: 10px;
-    padding: 15px;
+    gap: 0.625rem;
+    padding: 0.9375rem;
   }
 
   .menuItems.menuOpen {

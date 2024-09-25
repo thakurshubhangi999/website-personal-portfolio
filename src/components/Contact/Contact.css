@@ -11,6 +11,7 @@
   margin-left: 10%;
   margin-right: 10%;
   gap: 10px;
+  font-size: 25px;
 }
 
 .contact .row {
@@ -25,7 +26,7 @@
 }
 
 .contact-title {
-  font-size: 2.2rem;
+  font-size: 44px;
   font-weight: 700;
   letter-spacing: 1.75px;
   text-transform: uppercase;
@@ -62,11 +63,52 @@
   border: none;
 }
 
-/* Responsive Design for Contact Section */
+/* Responsive Design */
+/* Large Screens (Max width 1245px) */
+@media screen and (max-width: 1245px) {
+  .contact-container {
+    margin-left: 8%;
+    margin-right: 8%;
+  }
+
+  .contact-title {
+    font-size: 42px;
+  }
+
+  .contact .row form .box {
+    font-size: 1.7rem;
+  }
+
+  .info {
+    font-size: 25px; /* Slightly smaller text */
+  }
+}
+
+/* Tablets and Medium Screens (Max width 1024px) */
+@media screen and (max-width: 1024px) {
+  .contact-container {
+    margin-left: 8%;
+    margin-right: 8%;
+  }
+
+  .contact-title {
+    font-size: 38px;
+  }
+
+  .contact .row form .box {
+    font-size: 24px;
+  }
+
+  .info {
+    font-size: 24px; /* Reduce text size further */
+  }
+}
+
+/* Mobile Screens (Max width 830px) */
 @media screen and (max-width: 830px) {
   .contact-container {
-    flex-direction: column;
-    gap: 23px;
+    margin-left: 6%;
+    margin-right: 6%;
   }
 
   .contact .row form {
@@ -79,49 +121,44 @@
   }
 
   .contact-title {
-    font-size: 1.9rem;
+    font-size: 34px;
+  }
+
+  .contact .row form .box {
+    font-size: 1.5rem;
+  }
+
+  .contact .row form .message {
+    height: 14rem;
+  }
+
+  .info {
+    font-size: 22px; /* Further reduce for smaller screens */
+    padding: 5px; /* Add some padding */
   }
 }
 
-/* Other sections (experience, home, etc.) follow similar responsive rules */
-
-/* Example for Experience Section */
-.exp-container {
-  margin-top: 79px;
-  margin-left: 10%;
-  margin-right: 10%;
-}
-
-.exp-title {
-  font-size: 2.2rem;
-  font-weight: 700;
-}
-
-.exp-content {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  margin-top: 14px;
-}
-
-.historyItem {
-  flex: 1 1 45%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 17px;
-  background: #02112e;
-  border-radius: 10px;
-  padding: 24px;
-}
-
-@media screen and (max-width: 830px) {
-  .exp-content {
-    flex-direction: column;
-    align-items: center;
+/* Small Mobile Screens (Max width 600px) */
+@media screen and (max-width: 600px) {
+  .contact-container {
+    margin-left: 4%;
+    margin-right: 4%;
   }
 
-  .historyItem {
-    flex: 1 1 100%;
+  .contact-title {
+    font-size: 1.6rem;
+  }
+
+  .contact .row form .box {
+    font-size: 1.4rem;
+  }
+
+  .contact .row form .message {
+    height: 13rem;
+  }
+
+  .info {
+    font-size: 20px; /* Further reduce text size */
+    text-align: center; /* Center align text */
   }
 }

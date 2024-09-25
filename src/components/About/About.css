@@ -2,22 +2,22 @@
 .about-container {
   position: relative;
   border-radius: 15px;
-  padding: 40px;
-  margin-top: 110px;
+  padding: 2.5rem;
+  margin-top: 7rem;
   z-index: 1;
   margin-left: 10%;
   margin-right: 10%;
-  background-color: rgba(2, 7, 34, 0.8); /* Add background color for larger screens */
+  background-color: rgba(2, 7, 34, 0.8);
 }
 
 .about-title {
   color: #fff;
-  font-size: 35px;
+  font-size: 44px;
   font-weight: 700;
-  letter-spacing: 1.75px;
+  letter-spacing: 0.11rem;
   text-transform: uppercase;
-  margin: 0 0 40px 0; /* Adjust margin */
-  text-align: flex-start; /* Start title alignment */
+  margin: 0 0 1rem 0;
+  text-align: flex-start;
 }
 
 .about-content {
@@ -25,15 +25,15 @@
   flex-direction: row;
   align-items: center;
   background-color: rgba(2, 7, 34, 0.6);
-  border-radius: 15px; /* Add border radius */
-  padding: 20px; /* Add padding */
-  gap: 20px; /* Add gap between items */
+  border-radius: 15px;
+  padding: 1.25rem;
+  gap: 1.25rem;
 }
 
 .about-image {
   flex: 1;
-  max-width: 100%; /* Limit image width */
-  border-radius: 10px; /* Optional: add rounded corners to the image */
+  max-width: 100%;
+  border-radius: 10px;
 }
 
 .about-items {
@@ -41,7 +41,7 @@
   color: #fff;
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 1rem;
 }
 
 .about-item {
@@ -49,12 +49,8 @@
   flex-direction: column;
   align-items: flex-start;
   border-radius: 20px;
-  padding: 16px;
-  background-image: linear-gradient(
-    90deg,
-    rgba(3, 22, 96, 0.42) 0%,
-    rgba(32, 38, 122, 0) 100%
-  );
+  padding: 1rem;
+  background-image: linear-gradient(90deg, rgba(3, 22, 96, 0.42) 0%, rgba(32, 38, 122, 0) 100%);
   background-size: 0 100%;
   background-repeat: no-repeat;
   transition: background-size 0.4s;
@@ -65,22 +61,22 @@
 }
 
 .about-item h3 {
-  font-size: 28px;
+  font-size: 1.75rem;
   font-weight: 600;
-  margin-bottom: 10px; /* Add spacing below header */
+  margin-bottom: 0.5rem;
 }
 
 .about-item p {
-  font-size: 28px; /* Standardized font size */
+  font-size: 25px;
 }
 
 .about-list {
-  font-size: 26px; /* Standardized font size */
+  font-size: 1.625rem;
 }
 
 .about-list li {
   list-style-position: inside;
-  font-size: 26px; /* Standardized font size */
+  font-size: 25px;
   list-style-type: disc;
 }
 
@@ -89,26 +85,54 @@
   .about-container {
     margin-left: 5%;
     margin-right: 5%;
-    padding: 20px; /* Reduce padding */
+    padding: 1.25rem;
   }
 
   .about-title {
-    font-size: 30px; /* Adjust font size consistently */
+    font-size: 42px;
   }
 
   .about-item {
     flex-direction: row;
-    align-items: center; /* Re-align items */
+    align-items: center;
   }
 
   .about-item h3 {
-    font-size: 24px; /* Adjust for responsiveness */
+    font-size: 1.5rem;
   }
 
   .about-item p,
   .about-list,
   .about-list li {
-    font-size: 18px; /* Ensure consistent font size */
+    font-size: 25px;
+  }
+}
+
+/* Tablets and Medium Screens (Max width 1024px) */
+@media screen and (max-width: 1024px) {
+  .about-container {
+    margin-left: 6%;
+    margin-right: 6%;
+    padding: 1.5rem;
+  }
+
+  .about-title {
+    font-size: 38px;
+  }
+
+  .about-item {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .about-item h3 {
+    font-size: 1.625rem;
+  }
+
+  .about-item p,
+  .about-list,
+  .about-list li {
+    font-size: 24px;
   }
 }
 
@@ -116,36 +140,36 @@
   .about-container {
     margin-left: 5%;
     margin-right: 5%;
-    margin-top: 70px; /* Adjust margin for smaller screens */
-    padding: 20px;
-    background-color: transparent; /* Remove background for smaller screens */
+    margin-top: 4.375rem;
+    padding: 1.25rem;
+    background-color: transparent;
   }
 
   .about-title {
-    font-size: 28px; /* Adjust font size */
+    font-size: 34px;
   }
 
   .about-content {
-    flex-direction: column-reverse; /* Stack content vertically */
+    flex-direction: column-reverse;
   }
 
   .about-image {
     width: 100%;
-    margin-bottom: 20px; /* Add spacing below image */
+    margin-bottom: 1.25rem;
   }
 
   .about-items {
-    gap: 20px; /* Adjust gap */
+    gap: 1.25rem;
   }
 
   .about-item h3 {
-    font-size: 22px; /* Align font size across breakpoints */
+    font-size: 1.375rem;
   }
 
   .about-item p,
   .about-list,
   .about-list li {
-    font-size: 18px; /* Keep consistent across all screens */
+    font-size: 22px;
   }
 }
 
@@ -153,20 +177,20 @@
   .about-container {
     margin-left: 2%;
     margin-right: 2%;
-    padding: 15px; /* Further reduce padding */
+    padding: 0.9375rem;
   }
 
   .about-title {
-    font-size: 24px; /* Adjust font size for smaller screens */
+    font-size: 1.5rem;
   }
 
   .about-item h3 {
-    font-size: 20px; /* Consistent header size */
+    font-size: 20px;
   }
 
   .about-item p,
   .about-list,
   .about-list li {
-    font-size: 16px; /* Reduce font size for small screens */
+    font-size: 20px;
   }
 }

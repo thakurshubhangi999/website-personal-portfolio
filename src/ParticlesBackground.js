@@ -64,7 +64,7 @@ const ParticlesBackground = (props) => {
         },
         links: {
           color: "#5c5a5a",
-          distance: 150,
+          distance: 230,
           enable: true,
           opacity: 0.6,
           width: 1,
