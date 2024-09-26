@@ -12,7 +12,7 @@
 
 .about-title {
   color: #fff;
-  font-size: 44px;
+  font-size: 40px;
   font-weight: 700;
   letter-spacing: 0.11rem;
   text-transform: uppercase;
@@ -71,7 +71,7 @@
 }
 
 .about-list {
-  font-size: 1.625rem;
+  font-size: 20px;
 }
 
 .about-list li {

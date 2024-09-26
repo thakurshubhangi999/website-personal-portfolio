@@ -3,8 +3,6 @@
 
 /* Set Roboto as the default font-family for the entire webpage */
 * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
 }
 
