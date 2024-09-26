@@ -11,7 +11,7 @@
   margin-left: 10%;
   margin-right: 10%;
   gap: 10px;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .contact .row {
@@ -80,7 +80,7 @@
   }
 
   .info {
-    font-size: 25px; /* Slightly smaller text */
+    font-size: 20px; /* Slightly smaller text */
   }
 }
 

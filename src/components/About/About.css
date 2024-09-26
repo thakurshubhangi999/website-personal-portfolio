@@ -67,7 +67,7 @@
 }
 
 .about-item p {
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .about-list {
@@ -76,7 +76,7 @@
 
 .about-list li {
   list-style-position: inside;
-  font-size: 25px;
+  font-size: 20px;
   list-style-type: disc;
 }
 
@@ -104,7 +104,7 @@
   .about-item p,
   .about-list,
   .about-list li {
-    font-size: 25px;
+    font-size: 20px;
   }
 }
 

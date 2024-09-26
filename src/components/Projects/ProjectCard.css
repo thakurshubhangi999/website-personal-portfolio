@@ -14,13 +14,13 @@
 }
 
 .projectcard-title {
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 700;
 }
 
 .projectcard-description {
   margin-top: 6px;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 400;
 }
 
@@ -36,7 +36,7 @@
 }
 
 .projectcard-skill {
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 400;
   border-radius: 100px;
   background: rgb(18, 18, 55);
