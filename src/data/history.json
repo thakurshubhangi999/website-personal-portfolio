@@ -5,7 +5,7 @@
     "startDate": "Aug, 2023",
     "endDate": "June, 2024",
     "experiences": [
-      "Built custom React components for account data import/export, improving error handling and reducing import errors by 30%.",
+      "Built custom React components to improve account data import/export, reducing errors by 30%.",
       "Built dynamic forms using react-hook-form and Redux for state management, reducing loading times by 15%."
     ]
   },
