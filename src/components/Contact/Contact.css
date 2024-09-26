@@ -8,8 +8,8 @@
   color: #fff;
   padding: 2.5rem; /* 40px */
   margin-top: 6.25rem; /* 100px */
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 4%;
+  margin-right: 4%;
   gap: 0.625rem; /* 10px */
   font-size: 1.125rem; /* 18px */
 }
@@ -26,8 +26,7 @@
 }
 
 .contact-title {
-  font-size: 2.5rem; /* 40px */
-  font-weight: 700;
+  font-size: 2rem; /* 40px */
   letter-spacing: 0.109375rem; /* 1.75px */
   text-transform: uppercase;
   margin: 2.5rem -2.5rem; /* 40px -40px */
@@ -50,39 +49,20 @@
   margin: 1rem 0;
   background: linear-gradient(0deg, #030f37 0%, #021332 100%);
   box-shadow: 0 1rem 0.875rem 0 #020721; /* 0 16px 14px 0 */
-  font-size: 1.8rem;
+  font-size: 1.8rem; /* Default */
   width: 100%;
   color: #fff;
   border: none;
 }
 
 .contact .row form .message {
-  height: 15rem;
+  height: 15rem; /* Default */
   resize: none;
   color: #fff;
   border: none;
 }
 
 /* Responsive Design */
-/* Large Screens (Max width 1245px) */
-@media screen and (max-width: 1245px) {
-  .contact-container {
-    margin-left: 8%;
-    margin-right: 8%;
-  }
-
-  .contact-title {
-    font-size: 2.625rem; /* 42px */
-  }
-
-  .contact .row form .box {
-    font-size: 1.7rem;
-  }
-
-  .info {
-    font-size: 1.125rem; /* 18px */
-  }
-}
 
 /* Tablets and Medium Screens (Max width 1024px) */
 @media screen and (max-width: 1024px) {
@@ -92,7 +72,7 @@
   }
 
   .contact-title {
-    font-size: 2.375rem; /* 38px */
+    font-size: 1.75rem; /* Adjusted */
   }
 
   .contact .row form .box {
@@ -121,15 +101,15 @@
   }
 
   .contact-title {
-    font-size: 2.125rem; /* 34px */
+    font-size: 1.5rem; /* Adjusted */
   }
 
   .contact .row form .box {
-    font-size: 1.5rem;
+    font-size: 1.5rem; /* 24px */
   }
 
   .contact .row form .message {
-    height: 14rem;
+    height: 14rem; /* Adjusted */
   }
 
   .info {
@@ -146,19 +126,35 @@
   }
 
   .contact-title {
-    font-size: 1.6rem;
+    font-size: 1.4rem; /* Adjusted */
   }
 
   .contact .row form .box {
-    font-size: 1.4rem;
+    font-size: 1.4rem; /* 24px */
   }
 
   .contact .row form .message {
-    height: 13rem;
+    height: 13rem; /* Adjusted */
   }
 
   .info {
-    font-size: 1.125rem; /* 18px */
+    font-size: 1rem; /* Adjusted */
     text-align: center;
+  }
+}
+
+/* Extra Small Screens (Max width 480px) */
+@media screen and (max-width: 480px) {
+  .contact-title {
+    font-size: 1.2rem; /* Further adjusted */
+  }
+
+  .contact .row form .box,
+  .contact .row form .message {
+    font-size: 1.2rem; /* Further adjusted */
+  }
+
+  .info {
+    font-size: 0.875rem; /* Further adjusted */
   }
 }

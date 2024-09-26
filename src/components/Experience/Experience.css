@@ -1,13 +1,12 @@
 /* Main Container Styling */
 .exp-container {
-  margin-top: 4.9375rem; /* 79px */
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-top: 2rem;
+  margin-left: 4%;
+  margin-right: 4%;
 }
 
 .exp-title {
-  font-size: 2.5rem; /* 40px */
-  font-weight: 700;
+  font-size: 2rem; /* 40px */
   letter-spacing: 0.109375rem; /* 1.75px */
   text-transform: uppercase;
 }
@@ -46,13 +45,11 @@
 
 /* History Item Details */
 .historyItemDetails h3 {
-  font-size: 1.875rem; /* 30px */
-  font-weight: 500;
+  font-size: 1.25rem; /* 20px */
 }
 
 .historyItemDetails p {
   font-size: 1.125rem; /* 18px */
-  font-weight: 300;
 }
 
 .historyItemDetails ul {
@@ -64,23 +61,6 @@
 }
 
 /* Responsive Breakpoints */
-
-/* Large Screens (Initial dimension starts at 1245px) */
-@media screen and (max-width: 1245px) {
-  .exp-container {
-    margin-left: 8%;
-    margin-right: 8%;
-  }
-
-  .historyItem {
-    flex: 1 1 48%;
-  }
-
-  .exp-title {
-    font-size: 2.625rem; /* 42px */
-  }
-}
-
 /* Tablets and Medium Screens (Max width 1024px) */
 @media screen and (max-width: 1024px) {
   .exp-container {
