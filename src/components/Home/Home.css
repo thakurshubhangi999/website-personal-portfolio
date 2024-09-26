@@ -78,7 +78,7 @@
 
 .profile-image {
   width: 100%;
-  max-width: 21.875rem; /* 350px */
+  max-width: 14rem;
   height: auto; /* Maintain aspect ratio */
   border-radius: 20%;
   animation: floating 3s ease-in-out infinite;
