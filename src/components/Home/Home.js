@@ -7,16 +7,10 @@ export const Home = () => {
     <section className="container">
       <div className="content">
         <h1 className="title">Hello, I'm Shubhangi</h1>
-        <p className="description">Welcome to my portfolio website</p>
+        <h2 className="title">FRONTEND ENGINEER</h2>
+        <p className="description">Step into my digital world.</p>
         <p className="description">
-          I am a qualified Frontend Engineer with over 2 years of experience in
-          responsive web design and front-end development, specializing ReactJS
-          and React UI Frameworks.
-        </p>
-        <p className="description">
-          I focus on creating visually appealing websites that drive customer
-          engagement and enhance user experience while seeking opportunities to
-          expand my skills and create impactful solutions.
+        Your vision, my expertise. Transforming ideas into stunning web interfaces.
         </p>
         <p className="description">
           Over the course of my career, I have had the opportunity to work at
