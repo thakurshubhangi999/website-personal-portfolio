@@ -1,7 +1,7 @@
 /* Main Styles */
 .about-container {
   position: relative;
-  border-radius: 15px;
+  border-radius: 0.9375rem; /* 15px */
   padding: 2.5rem;
   margin-top: 7rem;
   z-index: 1;
@@ -12,7 +12,7 @@
 
 .about-title {
   color: #fff;
-  font-size: 40px;
+  font-size: 2.5rem; /* 40px */
   font-weight: 700;
   letter-spacing: 0.11rem;
   text-transform: uppercase;
@@ -25,15 +25,15 @@
   flex-direction: row;
   align-items: center;
   background-color: rgba(2, 7, 34, 0.6);
-  border-radius: 15px;
-  padding: 1.25rem;
-  gap: 1.25rem;
+  border-radius: 0.9375rem; /* 15px */
+  padding: 1.25rem; /* 20px */
+  gap: 1.25rem; /* 20px */
 }
 
 .about-image {
   flex: 1;
   max-width: 100%;
-  border-radius: 10px;
+  border-radius: 0.625rem; /* 10px */
 }
 
 .about-items {
@@ -41,15 +41,15 @@
   color: #fff;
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 1rem; /* 16px */
 }
 
 .about-item {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  border-radius: 20px;
-  padding: 1rem;
+  border-radius: 1.25rem; /* 20px */
+  padding: 1rem; /* 16px */
   background-image: linear-gradient(90deg, rgba(3, 22, 96, 0.42) 0%, rgba(32, 38, 122, 0) 100%);
   background-size: 0 100%;
   background-repeat: no-repeat;
@@ -61,35 +61,35 @@
 }
 
 .about-item h3 {
-  font-size: 1.75rem;
+  font-size: 1.75rem; /* 28px */
   font-weight: 600;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.5rem; /* 8px */
 }
 
 .about-item p {
-  font-size: 20px;
+  font-size: 1.125rem; /* 18px */
 }
 
 .about-list {
-  font-size: 20px;
+  font-size: 1.125rem; /* 18px */
 }
 
 .about-list li {
   list-style-position: inside;
-  font-size: 20px;
+  font-size: 1.125rem; /* 18px */
   list-style-type: disc;
 }
 
 /* Responsive Design */
-@media screen and (max-width: 1245px) {
+@media screen and (max-width: 77.8125rem) { /* 1245px */
   .about-container {
     margin-left: 5%;
     margin-right: 5%;
-    padding: 1.25rem;
+    padding: 1.25rem; /* 20px */
   }
 
   .about-title {
-    font-size: 42px;
+    font-size: 2.625rem; /* 42px */
   }
 
   .about-item {
@@ -98,26 +98,26 @@
   }
 
   .about-item h3 {
-    font-size: 1.5rem;
+    font-size: 1.5rem; /* 24px */
   }
 
   .about-item p,
   .about-list,
   .about-list li {
-    font-size: 20px;
+    font-size: 1.125rem; /* 18px */
   }
 }
 
 /* Tablets and Medium Screens (Max width 1024px) */
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 64rem) { /* 1024px */
   .about-container {
     margin-left: 6%;
     margin-right: 6%;
-    padding: 1.5rem;
+    padding: 1.5rem; /* 24px */
   }
 
   .about-title {
-    font-size: 38px;
+    font-size: 2.375rem; /* 38px */
   }
 
   .about-item {
@@ -126,27 +126,27 @@
   }
 
   .about-item h3 {
-    font-size: 1.625rem;
+    font-size: 1.625rem; /* 26px */
   }
 
   .about-item p,
   .about-list,
   .about-list li {
-    font-size: 24px;
+    font-size: 1.5rem; /* 24px */
   }
 }
 
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 51.875rem) { /* 830px */
   .about-container {
     margin-left: 5%;
     margin-right: 5%;
-    margin-top: 4.375rem;
-    padding: 1.25rem;
+    margin-top: 4.375rem; /* 70px */
+    padding: 1.25rem; /* 20px */
     background-color: transparent;
   }
 
   .about-title {
-    font-size: 34px;
+    font-size: 2.125rem; /* 34px */
   }
 
   .about-content {
@@ -155,42 +155,42 @@
 
   .about-image {
     width: 100%;
-    margin-bottom: 1.25rem;
+    margin-bottom: 1.25rem; /* 20px */
   }
 
   .about-items {
-    gap: 1.25rem;
+    gap: 1.25rem; /* 20px */
   }
 
   .about-item h3 {
-    font-size: 1.375rem;
+    font-size: 1.375rem; /* 22px */
   }
 
   .about-item p,
   .about-list,
   .about-list li {
-    font-size: 22px;
+    font-size: 1.375rem; /* 22px */
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 37.5rem) { /* 600px */
   .about-container {
     margin-left: 2%;
     margin-right: 2%;
-    padding: 0.9375rem;
+    padding: 0.9375rem; /* 15px */
   }
 
   .about-title {
-    font-size: 1.5rem;
+    font-size: 1.5rem; /* 24px */
   }
 
   .about-item h3 {
-    font-size: 20px;
+    font-size: 1.25rem; /* 20px */
   }
 
   .about-item p,
   .about-list,
   .about-list li {
-    font-size: 20px;
+    font-size: 1.125rem; /* 18px */
   }
 }

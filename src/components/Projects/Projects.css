@@ -1,25 +1,25 @@
 /* Main Container Styling */
 .project-container {
-  margin-top: 76px;
+  margin-top: 4.75rem; /* 76px */
   margin-left: 10%;
   margin-right: 10%;
 }
 
 .project-title {
-  font-size: 40px;
+  font-size: 2.5rem; /* 40px */
   font-weight: 700;
-  letter-spacing: 1.75px;
+  letter-spacing: 0.109375rem; /* 1.75px */
   text-transform: uppercase;
 }
 
 .project-projects {
-  margin-top: 37px;
+  margin-top: 2.3125rem; /* 37px */
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  gap: 15px;
+  gap: 0.9375rem; /* 15px */
   width: 100%;
 }
 
@@ -32,13 +32,14 @@
   }
 
   .project-title {
-    font-size: 42px;
+    font-size: 2.625rem; /* 42px */
   }
 
   .project-projects {
-    gap: 12px;
+    gap: 0.75rem; /* 12px */
   }
 }
+
 /* Medium Screens (Max width 1024px) */
 @media screen and (max-width: 1024px) {
   .project-container {
@@ -47,11 +48,11 @@
   }
 
   .project-title {
-    font-size: 38px;
+    font-size: 2.375rem; /* 38px */
   }
 
   .project-projects {
-    gap: 10px;
+    gap: 0.625rem; /* 10px */
   }
 }
 
@@ -63,11 +64,11 @@
   }
 
   .project-title {
-    font-size: 34px;
+    font-size: 2.125rem; /* 34px */
   }
 
   .project-projects {
-    gap: 8px;
+    gap: 0.5rem; /* 8px */
   }
 }
 
@@ -76,14 +77,14 @@
   .project-container {
     margin-left: 2%;
     margin-right: 2%;
-    padding: 0.9375rem;
+    padding: 0.9375rem; /* 15px */
   }
 
   .project-title {
-    font-size: 1.5rem;
+    font-size: 1.5rem; /* 24px */
   }
 
   .project-projects {
-    gap: 5px;
+    gap: 0.3125rem; /* 5px */
   }
 }

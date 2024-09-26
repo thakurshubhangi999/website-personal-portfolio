@@ -1,14 +1,14 @@
 /* Main Container Styling */
 .exp-container {
-  margin-top: 79px;
+  margin-top: 4.9375rem; /* 79px */
   margin-left: 10%;
   margin-right: 10%;
 }
 
 .exp-title {
-  font-size: 40px;
+  font-size: 2.5rem; /* 40px */
   font-weight: 700;
-  letter-spacing: 1.75px;
+  letter-spacing: 0.109375rem; /* 1.75px */
   text-transform: uppercase;
 }
 
@@ -17,14 +17,14 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  margin-top: 14px;
+  margin-top: 0.875rem; /* 14px */
 }
 
 .history {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  gap: 20px; /* Gap between history items */
+  gap: 1.25rem; /* 20px */
 }
 
 .historyItem {
@@ -32,35 +32,35 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 17px;
+  gap: 1.0625rem; /* 17px */
   background: #02112e;
   background: linear-gradient(90deg, #010128 0%, rgba(25, 55, 109, 0) 100%);
-  border-radius: 10px;
-  padding: 24px;
-  min-width: 300px;
+  border-radius: 0.625rem; /* 10px */
+  padding: 1.5rem; /* 24px */
+  min-width: 18.75rem; /* 300px */
 }
 
 .historyItem img {
-  width: 50px;
+  width: 3.125rem; /* 50px */
 }
 
 /* History Item Details */
 .historyItemDetails h3 {
-  font-size: 30px;
+  font-size: 1.875rem; /* 30px */
   font-weight: 500;
 }
 
 .historyItemDetails p {
-  font-size: 20px;
+  font-size: 1.125rem; /* 18px */
   font-weight: 300;
 }
 
 .historyItemDetails ul {
-  margin-top: 6px;
+  margin-top: 0.375rem; /* 6px */
   list-style-position: inside;
-  font-size: 20px;
+  font-size: 1.125rem; /* 18px */
   list-style-type: disc;
-  margin-left: 17px;
+  margin-left: 1.0625rem; /* 17px */
 }
 
 /* Responsive Breakpoints */
@@ -75,8 +75,9 @@
   .historyItem {
     flex: 1 1 48%;
   }
-  .exp-title{
-    font-size: 42px;
+
+  .exp-title {
+    font-size: 2.625rem; /* 42px */
   }
 }
 
@@ -89,24 +90,27 @@
 
   .historyItem {
     flex: 1 1 100%;
-    padding: 20px;
+    padding: 1.25rem; /* 20px */
   }
 
   .historyItemDetails h3 {
-    font-size: 28px;
+    font-size: 1.75rem; /* 28px */
   }
 
   .historyItemDetails p {
-    font-size: 18px;
+    font-size: 1.125rem; /* 18px */
   }
-  .historyItemDetails ul{
-    font-size: 24px;
+
+  .historyItemDetails ul {
+    font-size: 1.5rem; /* 24px */
   }
+
   .historyItem img {
-    width: 40px;
+    width: 2.5rem; /* 40px */
   }
-  .exp-title{
-    font-size: 38px;
+
+  .exp-title {
+    font-size: 2.375rem; /* 38px */
   }
 }
 
@@ -120,29 +124,32 @@
   .exp-content {
     flex-direction: column;
     align-items: center;
-    gap: 34px;
+    gap: 2.125rem; /* 34px */
   }
 
   .historyItem {
     flex: 1 1 100%;
-    padding: 18px;
+    padding: 1.125rem; /* 18px */
   }
 
   .historyItemDetails h3 {
-    font-size: 26px;
+    font-size: 1.625rem; /* 26px */
   }
 
   .historyItemDetails p {
-    font-size: 16px;
+    font-size: 1rem; /* 16px */
   }
-  .historyItemDetails ul{
-    font-size: 22px;
+
+  .historyItemDetails ul {
+    font-size: 1.375rem; /* 22px */
   }
+
   .historyItem img {
-    width: 35px;
+    width: 2.1875rem; /* 35px */
   }
-  .exp-title{
-    font-size: 34px;
+
+  .exp-title {
+    font-size: 2.125rem; /* 34px */
   }
 }
 
@@ -151,29 +158,31 @@
   .exp-container {
     margin-left: 2%;
     margin-right: 2%;
-    padding: 0.9375rem;
+    padding: 0.9375rem; /* 15px */
   }
 
   .exp-title {
-    font-size: 34px;
+    font-size: 2.125rem; /* 34px */
   }
 
   .historyItem {
-    padding: 15px;
+    padding: 0.9375rem; /* 15px */
   }
 
   .historyItemDetails h3 {
-    font-size: 22px;
+    font-size: 1.375rem; /* 22px */
   }
-  .historyItemDetails ul{
-    font-size: 20px;
+
+  .historyItemDetails ul {
+    font-size: 1.125rem; /* 18px */
   }
+
   .historyItemDetails p {
-    font-size: 1rem;
+    font-size: 1rem; /* 16px */
   }
 
   .historyItem img {
-    width: 30px;
+    width: 1.875rem; /* 30px */
   }
 }
 
@@ -189,11 +198,11 @@
   }
 
   .historyItem {
-    padding: 12px;
+    padding: 0.75rem; /* 12px */
   }
 
   .historyItemDetails h3 {
-    font-size: 20px;
+    font-size: 1.25rem; /* 20px */
   }
 
   .historyItemDetails p {
@@ -201,6 +210,6 @@
   }
 
   .historyItem img {
-    width: 20px;
+    width: 1.25rem; /* 20px */
   }
 }

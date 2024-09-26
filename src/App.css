@@ -9,7 +9,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: #fff;
-  letter-spacing: 2px;
+  letter-spacing: 0.125rem; /* 2px */
   font-weight: 400;
 }
 
