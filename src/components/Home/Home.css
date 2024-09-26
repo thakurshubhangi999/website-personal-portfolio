@@ -26,7 +26,6 @@
   font-size: 1.5rem;
   text-transform: uppercase;
   font-weight: 800;
-  letter-spacing: 0.125rem;
   background: linear-gradient(
     90deg,
     rgb(210, 210, 219) 70%,
@@ -226,7 +225,7 @@
   }
 
   .contactBtn {
-    font-size: 0.4rem;
+    font-size: 0.75rem;
     padding: 0.75rem 1rem;
   }
 
