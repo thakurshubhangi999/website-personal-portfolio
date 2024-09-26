@@ -11,16 +11,13 @@ export const About = () => {
             <div className="about-item-text">
               <h3>Frontend Engineer | 2+ Years of Experience</h3>
               <p>
-                I am a Frontend Engineer with over 2 years of experience
-                specializing in building responsive web applications with React.
-                My expertise includes developing custom components for account
-                management, enhancing user experience through robust import and
-                export functionalities. I excel in creating dynamic forms and
-                data visualizations, utilizing state management with Redux to
-                ensure efficient data handling. Committed to delivering
-                high-quality, maintainable code, I collaborate effectively with
-                design and development teams to create visually appealing and
-                user-friendly interfaces.
+                I'm a Frontend Engineer with 2+ years of experience in creating
+                responsive web apps using React. Skilled in developing custom
+                components. I focus on building dynamic forms, data
+                visualizations, and use Redux for state management to optimize
+                performance. My work ensures high-quality code and seamless
+                collaboration with teams to create intuitive, visually appealing
+                user interfaces.
               </p>
             </div>
           </li>
@@ -28,20 +25,15 @@ export const About = () => {
             <div className="about-item-text">
               <h3>Key Responsibilities</h3>
               <p>
-                Visually Appealing Designs: Create responsive and visually
-                appealing web applications using HTML, CSS, and JavaScript
-                frameworks like React, collaborating closely with designers and
-                backend developers to deliver high-quality user experiences.
+                Built responsive web apps with React, collaborating with design
+                and backend teams.
               </p>
               <p>
-                Efficient State Management: Utilized state management with React
-                hooks and Redux to efficiently handle data fetching and loading
-                states, improving responsiveness during user interactions.
+                Optimized state management using React hooks and Redux for
+                better performance.
               </p>
               <p>
-                Clean and Maintainable Code: Adhered to coding standards and
-                best practices, resulting in a well-structured and easily
-                maintainable codebase.
+                Ensured clean, maintainable code by following best practices.
               </p>
             </div>
           </li>
@@ -52,15 +44,22 @@ export const About = () => {
                 I possess a strong foundation in various frontend technologies:
               </p>
               <ul className="about-list">
-                <li>Languages: JavaScript</li>
-                <li>Markup Languages: HTML, CSS</li>
-                <li>Frameworks: ReactJS, Material UI</li>
                 <li>
-                  Libraries: Redux Toolkit, React Router, React Hook Form, Yup,
-                  Sentry
+                  <strong>Languages:</strong> JavaScript
                 </li>
                 <li>
-                  Dev Tools: Git, GitHub, JIRA, Postman, Visual Studio Code
+                  <strong>Markup:</strong> HTML, CSS
+                </li>
+                <li>
+                  <strong>Frameworks:</strong> ReactJS, Material UI
+                </li>
+                <li>
+                  <strong>Libraries:</strong> Redux Toolkit, React Router, React
+                  Hook Form, Yup, Sentry
+                </li>
+                <li>
+                  <strong>Dev Tools:</strong> Git, GitHub, JIRA, Postman, VS
+                  Code
                 </li>
               </ul>
             </div>

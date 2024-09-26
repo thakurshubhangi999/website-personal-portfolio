@@ -33,8 +33,8 @@ export const Home = () => {
         </a>
       </div>
       <img src={profileImage} alt="ProfileImage" className="profile-image" />
-      <div className="topBlur" />
-      <div className="bottomBlur" />
+      {/* <div className="topBlur" />
+      <div className="bottomBlur" /> */}
     </section>
   );
 };

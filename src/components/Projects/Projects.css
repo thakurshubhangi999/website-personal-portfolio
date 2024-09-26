@@ -1,24 +1,24 @@
 /* Main Container Styling */
 .project-container {
-  margin-top: 4.75rem; /* 76px */
+  margin-top: 3rem;
   margin-left: 4%;
   margin-right: 4%;
 }
 
 .project-title {
-  font-size: 2.5rem; /* 40px */
-  letter-spacing: 0.109375rem; /* 1.75px */
+  font-size: 2rem;
+  letter-spacing: 0.125rem;
   text-transform: uppercase;
 }
 
 .project-projects {
-  margin-top: 2.3125rem; /* 37px */
+  margin-top: 2rem;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  gap: 0.9375rem; /* 15px */
+  gap: 0.25rem; /* 15px */
   width: 100%;
 }
 
@@ -27,12 +27,11 @@
 /* Medium Screens (Max width 1024px) */
 @media screen and (max-width: 1024px) {
   .project-container {
-    margin-left: 8%;
-    margin-right: 8%;
+
   }
 
   .project-title {
-    font-size: 2.375rem; /* 38px */
+    font-size: 1.75rem;
   }
 
   .project-projects {
@@ -42,13 +41,9 @@
 
 /* Mobile Screens (Max width 830px) */
 @media screen and (max-width: 830px) {
-  .project-container {
-    margin-left: 5%;
-    margin-right: 5%;
-  }
 
   .project-title {
-    font-size: 2.125rem; /* 34px */
+    font-size: 1.5rem;
   }
 
   .project-projects {
@@ -59,13 +54,25 @@
 /* Small Mobile Screens (Max width 600px) */
 @media screen and (max-width: 600px) {
   .project-container {
-    margin-left: 2%;
-    margin-right: 2%;
-    padding: 0.9375rem; /* 15px */
+    padding: 0.9375rem; 
   }
 
   .project-title {
-    font-size: 1.5rem; /* 24px */
+    font-size:1.25rem;
+  }
+
+  .project-projects {
+    gap: 0.3125rem; /* 5px */
+  }
+}
+/* Small Mobile Screens (Max width 480) */
+@media screen and (max-width: 480px) {
+  .project-container {
+    padding: 0.9375rem; 
+  }
+
+  .project-title {
+    font-size:1.125rem;
   }
 
   .project-projects {

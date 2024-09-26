@@ -5,8 +5,8 @@
     "startDate": "Aug, 2023",
     "endDate": "June, 2024",
     "experiences": [
-      "Custom Component Development: Developed custom React components for efficient account data import/export with file uploads and API integration. Reduced import errors by 30% through robust error handling and validation.",
-      "Dynamic Forms and State Management: Created dynamic forms for ad-hoc trade management using react-hook-form and yup. Optimized state management with React hooks and Redux, reducing loading times by 15%."
+      "Built custom React components for account data import/export, improving error handling and reducing import errors by 30%",
+      "Built dynamic forms using react-hook-form and Redux for state management, reducing loading times by 15%"
     ]
   },
   {
@@ -15,8 +15,8 @@
     "startDate": "Nov, 2022",
     "endDate": "July, 2023",
     "experiences": [
-      "Specialized in VM server commissioning and decommissioning, including deploying new VMs and cloning existing ones.",
-      "Collaborated With Server Hardware Vendors Such As HPE For Timely Hardware Upgrades And Failure Resolution."
+      "Specialized in VM server commissioning, decommissioning, deploying and cloning VMs",
+      "Collaborated with HPE for timely hardware upgrades and failure resolution"
     ]
   },
   {
@@ -25,8 +25,8 @@
     "startDate": "Oct, 2021",
     "endDate": "Aug, 2022",
     "experiences": [
-      "Developed reusable React components and collaborated with teams to create responsive web applications using HTML, CSS, and JavaScript.",
-      "Designed intuitive and user-friendly user interfaces, focusing on enhancing usability and accessibility"
+      "Developed reusable React components for responsive web applications using ReactJs",
+      "Designed user-friendly interfaces, enhancing usability and accessibility"
     ]
   },
   {
@@ -35,8 +35,8 @@
     "startDate": "June, 2021",
     "endDate": "Oct, 2021",
     "experiences": [
-      "Completed training on HTML, CSS, JavaScript, and ReactJS, developing mini projects and collaborating on group tasks.",
-      "Participated in code reviews, shadowed senior developers, and practiced agile methodologies, enhancing coding standards and teamwork."
+      "Completed training in HTML, CSS, JavaScript, and ReactJS via projects and group work",
+      "Improved coding standards and teamwork through code reviews and developer shadowing"
     ]
   }
 ]

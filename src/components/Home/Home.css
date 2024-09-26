@@ -4,10 +4,13 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 0.5rem;
+  margin-top: 0.125rem;
   margin-left: 4%;
   margin-right: 4%;
   z-index: 1;
+  background-color: rgba(2, 7, 34, 0.6);
+  border-radius: 0.625rem; /* 10px */
+  padding-left: 2.5rem;
 }
 
 /* Content Section */
@@ -21,6 +24,9 @@
 
 .title {
   font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 0.125rem;
   background: linear-gradient(
     90deg,
     rgb(210, 210, 219) 70%,
@@ -99,38 +105,35 @@
 }
 
 /* Blurred Background Elements */
-.topBlur {
+/* .topBlur {
   position: absolute;
   width: 50vw;
   height: 50vw;
-  min-width: 21.875rem; /* 350px */
+  min-width: 21.875rem;
   top: -8rem;
   left: -10vw;
-  border-radius: 47.75rem; /* 764px */
+  border-radius: 47.75rem;
   background: rgba(9, 22, 46, 0.7);
-  filter: blur(6.25rem); /* 100px */
+  filter: blur(6.25rem);
   z-index: 0;
-}
+} */
 
-.bottomBlur {
+/* .bottomBlur {
   position: absolute;
   width: 70vw;
   height: 50vw;
-  min-width: 21.875rem; /* 350px */
-  top: 15.375rem;
+  min-width: 21.875rem;  top: 15.375rem;
   right: -25vw;
-  border-radius: 47.75rem; /* 764px */
+  border-radius: 47.75rem;
   background: rgba(1, 16, 43, 0.7);
-  filter: blur(6.25rem); /* 100px */
+  filter: blur(6.25rem); 
   z-index: 0;
-}
+} */
 
 /* Responsive Adjustments */
 /* Medium Screens (1024px and below) */
 @media screen and (max-width: 1024px) {
   .container {
-    margin-left: 5%;
-    margin-right: 5%;
   }
 
   .title {
@@ -157,8 +160,6 @@
     flex-direction: column; /* Stack items vertically */
     align-items: center; /* Center align items */
     margin-top: 10%;
-    margin-left: 4%;
-    margin-right: 4%;
   }
 
   .content {
