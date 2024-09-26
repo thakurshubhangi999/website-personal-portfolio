@@ -4,7 +4,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 49px;
+  margin-top: 8pxpx;
   margin-left: 10%;
   margin-right: 10%;
   z-index: 1;
@@ -76,6 +76,7 @@
   height: auto; /* Maintain aspect ratio */
   border-radius: 20%;
   animation: floating 3s ease-in-out infinite;
+  margin-bottom: 20%;
 }
 
 /* Floating Animation */
