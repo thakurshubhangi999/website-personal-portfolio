@@ -82,11 +82,12 @@
 
 .profile-image {
   width: 100%;
-  max-width: 14rem;
+  max-width: 22rem;
   height: auto; /* Maintain aspect ratio */
   border-radius: 20%;
   animation: floating 3s ease-in-out infinite;
   margin-bottom: 0;
+  margin-right: 6%;
 }
 
 /* Floating Animation */
