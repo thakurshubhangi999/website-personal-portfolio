@@ -9,13 +9,14 @@
   margin-right: 4%;
   z-index: 1;
   background-color: rgba(2, 7, 34, 0.6);
-  border-radius: 0.625rem; /* 10px */
-  padding-left: 2.5rem;
+  border-radius: 0.625rem;
+  padding: 1rem 2rem;
+  flex-wrap: wrap; /* Allow wrapping for small screens */
 }
 
 /* Content Section */
 .content {
-  flex: 1; /* Ensure content takes up available space */
+  flex: 1;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -23,10 +24,9 @@
 }
 
 .title {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   text-transform: uppercase;
   font-weight: 800;
-  letter-spacing: 0.125rem;
   background: linear-gradient(
     90deg,
     rgb(210, 210, 219) 70%,
@@ -39,9 +39,13 @@
   text-overflow: ellipsis;
 }
 
+.typewrite-title {
+  font-size: 1.5rem !important;
+}
+
 .description {
   font-size: 1rem;
-  margin-bottom: 0.125rem;
+  margin-bottom: 0.5rem;
 }
 
 .exp-link {
@@ -59,7 +63,7 @@
   border-radius: 1.25rem;
   font-size: 1rem;
   padding: 0.75rem 1rem;
-  margin-top: 0.5rem;
+  margin-top: 1rem;
   transition: all 0.3s ease-in-out;
 }
 
@@ -70,106 +74,85 @@
 
 /* Image Section */
 .image-container {
-  flex: 1; /* Ensure image container takes up available space */
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-left: 2rem;
 }
 
 .profile-image {
   width: 100%;
-  max-width: 21.875rem; /* 350px */
-  height: auto; /* Maintain aspect ratio */
+  max-width: 18rem;
+  height: auto;
   border-radius: 20%;
   animation: floating 3s ease-in-out infinite;
-  margin-bottom: 4%;
+  margin-bottom: 0;
 }
 
 /* Floating Animation */
 @keyframes floating {
   0% {
-    transform: translate(0, 0); /* Start position */
+    transform: translate(0, 0);
   }
   25% {
-    transform: translate(0, 0.9375rem); /* Move down */
+    transform: translate(0, 0.9375rem);
   }
   50% {
-    transform: translate(0, 0.625rem); /* Slightly less down */
+    transform: translate(0, 0.625rem);
   }
   75% {
-    transform: translate(0, 0.9375rem); /* Move down again */
+    transform: translate(0, 0.9375rem);
   }
   100% {
-    transform: translate(0, 0); /* Return to start */
+    transform: translate(0, 0);
   }
 }
-
-/* Blurred Background Elements */
-/* .topBlur {
-  position: absolute;
-  width: 50vw;
-  height: 50vw;
-  min-width: 21.875rem;
-  top: -8rem;
-  left: -10vw;
-  border-radius: 47.75rem;
-  background: rgba(9, 22, 46, 0.7);
-  filter: blur(6.25rem);
-  z-index: 0;
-} */
-
-/* .bottomBlur {
-  position: absolute;
-  width: 70vw;
-  height: 50vw;
-  min-width: 21.875rem;  top: 15.375rem;
-  right: -25vw;
-  border-radius: 47.75rem;
-  background: rgba(1, 16, 43, 0.7);
-  filter: blur(6.25rem); 
-  z-index: 0;
-} */
 
 /* Responsive Adjustments */
 /* Medium Screens (1024px and below) */
 @media screen and (max-width: 1024px) {
   .container {
-  }
-
-  .title {
-    font-size: 1.75rem;
-  }
-
-  .description {
-    font-size: 0.9375rem;
-  }
-
-  .contactBtn {
-    font-size: 1rem;
-    padding: 0.875rem 1.125rem;
-  }
-
-  .profile-image {
-    max-width: 300px;
-  }
-}
-
-/* Small Screens (830px and below) */
-@media screen and (max-width: 830px) {
-  .container {
-    flex-direction: column; /* Stack items vertically */
-    align-items: center; /* Center align items */
-    margin-top: 10%;
-  }
-
-  .content {
-    align-items: center;
-    text-align: center; /* Center text */
+    flex-wrap: nowrap; /* Prevents the image from moving to the next line */
   }
 
   .title {
     font-size: 1.5rem;
-    white-space: normal; /* Allow text to wrap */
+  }
+
+  .description {
+    font-size: 0.9rem;
+  }
+
+  .contactBtn {
+    font-size: 0.9rem;
+    padding: 0.75rem 1rem;
+  }
+
+  .profile-image {
+    max-width: 15rem;
+  }
+}
+
+/* Small Screens (830px and below) */
+/* Small Screens (830px and below) */
+@media screen and (max-width: 830px) {
+  .container {
+    flex-wrap: nowrap; /* Prevent wrapping */
+  }
+
+  .content {
+    flex-basis: auto; /* Allow the content to share space with the image */
+    margin-bottom: 0; /* Remove margin-bottom to align with image */
+  }
+
+  .image-container {
+    margin: 0 0 0 1rem; /* Add margin-left to create space between content and image */
+    flex-basis: auto;
+  }
+
+  .title {
+    font-size: 1.4rem;
+    white-space: normal;
   }
 
   .description {
@@ -181,44 +164,69 @@
   }
 
   .profile-image {
-    max-width: 250px;
-    margin-bottom: 1.25rem;
+    max-width: 210px;
   }
 }
 
+
+/* Extra Small Screens (600px and below) */
 /* Extra Small Screens (600px and below) */
 @media screen and (max-width: 600px) {
   .container {
-    margin-left: 2%;
-    margin-right: 2%;
+    flex-wrap: nowrap; /* Prevent wrapping */
+    padding: 1rem;
+  }
+
+  .content {
+    flex-basis: auto; /* Allow the content to share space with the image */
+    margin-bottom: 0; /* Remove margin-bottom */
+  }
+
+  .image-container {
+    margin: 0 0 0 1rem; /* Space between content and image */
+    flex-basis: auto; /* Keep the image next to the content */
   }
 
   .title {
     font-size: 1.25rem;
+    white-space: normal;
   }
 
   .description {
-    font-size: 0.8125rem;
+    font-size: 0.8rem;
   }
 
   .contactBtn {
-    font-size: 0.6rem;
-    padding: 0.75rem 1rem;
+    font-size: 0.7rem;
+    padding: 0.5rem 1rem;
   }
 
   .profile-image {
-    max-width: 200px;
+    max-width: 150px;
   }
 }
-/* Extra Small Screens (600px and below) */
+
+/* Extra Small Screens (480px and below) */
+/* Extra Small Screens (480px and below) */
 @media screen and (max-width: 480px) {
   .container {
-    margin-left: 2%;
-    margin-right: 2%;
+    flex-wrap: nowrap; /* Prevent wrapping */
+    padding: 1rem;
+  }
+
+  .content {
+    flex-basis: auto; /* Allow the content to share space with the image */
+    margin-bottom: 0;
+  }
+
+  .image-container {
+    margin: 0 0 0 1rem; /* Space between content and image */
+    flex-basis: auto; /* Keep the image next to the content */
   }
 
   .title {
     font-size: 1.125rem;
+    white-space: normal;
   }
 
   .description {
@@ -226,11 +234,12 @@
   }
 
   .contactBtn {
-    font-size: 0.4rem;
-    padding: 0.75rem 1rem;
+    font-size: 0.6rem;
+    padding: 0.5rem 1rem;
   }
 
   .profile-image {
-    max-width: 150px;
+    max-width: 8rem;
   }
 }
+

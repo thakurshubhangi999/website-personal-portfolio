@@ -1,0 +1,15 @@
+.typewriter {
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 0rem;
+    animation: typing 2s steps(1) infinite;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
