@@ -117,10 +117,12 @@
 
   .title {
     font-size: 1.5rem;
+    margin-block: 0.4rem;
   }
 
   .description {
     font-size: 0.9rem;
+    margin-bottom: 1px;
   }
 
   .contactBtn {
@@ -236,7 +238,7 @@
   }
 
   .profile-image {
-    max-width: 100px;
+    max-width: 150px;
   }
 }
 
