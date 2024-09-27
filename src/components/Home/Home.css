@@ -168,8 +168,6 @@
   }
 }
 
-
-/* Extra Small Screens (600px and below) */
 /* Extra Small Screens (600px and below) */
 @media screen and (max-width: 600px) {
   .container {
@@ -207,7 +205,6 @@
 }
 
 /* Extra Small Screens (480px and below) */
-/* Extra Small Screens (480px and below) */
 @media screen and (max-width: 480px) {
   .container {
     flex-wrap: nowrap; /* Prevent wrapping */
@@ -239,7 +236,7 @@
   }
 
   .profile-image {
-    max-width: 8rem;
+    max-width: 100px;
   }
 }
 
