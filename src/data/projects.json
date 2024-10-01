@@ -4,8 +4,8 @@
     "imageSrc": "netflix",
     "description":"Created a Netflix clone with React, Redux, React-Router, and Axios.",
     "skills": ["ReactJs", "Redux", "React Router"],
-    "demo": "https://netflix-project-green.vercel.app/",
-    "source": "https://github.com/thakurshubhangi999/NetflixProject"
+    "demo": "https://netflix-2024-psi.vercel.app/",
+    "source": "https://github.com/thakurshubhangi999/Netflix-2024"
   },
   {
     "title": "E-commerce",
