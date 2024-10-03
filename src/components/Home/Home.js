@@ -12,7 +12,7 @@ export const Home = () => {
         <p className="description">I like to craft solid and scalable frontend products with great user experience.</p>
         <p className="description">Uncover my career journey 👇</p>
         <a
-          href="https://drive.google.com/file/d/1VmYGkKOJsuUfxp0KIPs3ig7skX93O6lm/view?usp=sharing"
+          href="https://drive.google.com/file/d/1r7dGc_1KRTBo-YB1QeAOopNExHEFFsft/view?usp=sharing"
           className="contactBtn"
         >
           Download CV
