@@ -59,7 +59,10 @@
   color: #fff;
   border: none;
 }
-
+.EmailPhone a{
+  color: #fff;
+  text-decoration: none;
+}
 /* Responsive Design */
 
 /* Tablets and Medium Screens (Max width 1024px) */

@@ -9,11 +9,15 @@ export const Contact = () => {
         <div className="row">
           <div className="content">
             <div className="info">
-              <p>
-                <strong>Email:</strong> thakurshubhangi999@gmail.com
+              <p className="EmailPhone">
+                <strong>Email:</strong>
+                <a href="mailto:thakurshubhangi999@gmail.com">
+                  thakurshubhangi999@gmail.com
+                </a>
               </p>
-              <p>
-                <strong>Phone:</strong> +91 222333444
+              <p className="EmailPhone">
+                <strong>Phone:</strong>
+                <a href="tel:+91222333444">+91 222333444</a>
               </p>
               <p>
                 <strong>Location:</strong> Bidar, India - 585328
