@@ -54,8 +54,7 @@ export const About = () => {
                   <strong>Frameworks:</strong> ReactJS, Material UI
                 </li>
                 <li>
-                  <strong>Libraries:</strong> Redux Toolkit, React Router, React
-                  Hook Form, Yup, Sentry
+                  <strong>Libraries:</strong> Redux Toolkit, React Router, Formik, Yup, Sentry
                 </li>
                 <li>
                   <strong>Dev Tools:</strong> Git, GitHub, JIRA, Postman, VS
